@@ -10,7 +10,7 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: edu.xidian.springcloud.entities
   mapper-locations:
-  - classpath:mybatis/mapper/*.xml
+  - classpath:mybatis/mapper/*.xml #在线操作
   
   
 spring:
